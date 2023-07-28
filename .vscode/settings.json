@@ -2,10 +2,10 @@
     "editor.formatOnSave": true,
     "C_Cpp.formatting": "clangFormat",
     "C_Cpp.clang_format_sortIncludes": false,
-    "C_Cpp.clang_format_style": "file:../config/.clang-format",
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/config/.clang-format",
     "cmake.configureArgs": [],
     "cmake.configureSettings": {},
-    "cmake.sourceDirectory": "/home/roughero/Programming/Cpp/OOP/src",
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
     "cmake.defaultVariants": {
         "buildType": {
             "default": "debug",
