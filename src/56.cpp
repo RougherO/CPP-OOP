@@ -22,7 +22,7 @@ int main()
     std::cout << "Enter num2: ";
     std::cin >> num2;
 
-    std::cout << "Max of " << num1 << " and " << num2 << " is: " << *Max(&num1, &num2) << "\n";
+    std::cout << "Max of " << num1 << " and " << num2 << " is: " << *Max<int>(&num1, &num2) << "\n";
 
     std::string s1, s2;
     std::cout << "Enter string1: ";
@@ -30,5 +30,5 @@ int main()
     std::cout << "Enter string2: ";
     std::cin >> s2;
 
-    std::cout << "Max of " << s1 << " and " << s2 << " is: " << *Max(&s1, &s2) << "\n";
+    std::cout << "Max of " << s1 << " and " << s2 << " is: " << *Max<std::string>(&s1, &s2) << "\n";
 }
